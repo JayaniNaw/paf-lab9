@@ -52,8 +52,8 @@ if (request.getParameter("hidItemIDDelete") != null) {
 				<form id ="formItem" name="formItem" method="post" action="Items.jsp">
 			 		Item code: <input id= "itemCode" name="ItemCode" type="text" class="form-control"><br> 
 			 		Item name: <input id= "itemName" name="ItemName" type="text" class="form-control"><br> 
-			 		Item price:<input id= "ItemPrice" name="ItemPrice" type="text" class="form-control"><br> 
-			 		Item description: <input id= "ItemDesc" name="ItemDesc" type="text" class="form-control"><br> 
+			 		Item price:<input id= "itemPrice" name="ItemPrice" type="text" class="form-control"><br> 
+			 		Item description: <input id= "itemDesc" name="ItemDesc" type="text" class="form-control"><br> 
 			 		<input id = "btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary"><br>
 			 		<input type="hidden"id="hidItemIDSave" name="hidItemIDSave "value="">
 				</form>

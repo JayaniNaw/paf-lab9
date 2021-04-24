@@ -119,7 +119,7 @@ public class Item {
 		 if (con == null) 
 		 {return "Error while connecting to the database for updating."; } 
 		 // create a prepared statement
-		 String query = "UPDATE items SET itemCode=?,itemName=?,itemPrice=?,itemDesc=? WHERE itemID=?"; 
+		 String query = "UPDATE items SET ItemCode=?,ItemName=?,ItemPrice=?,ItemDesc=? WHERE ItemID=?"; 
 		 PreparedStatement preparedStmt = con.prepareStatement(query); 
 		 // binding values
 		 preparedStmt.setString(1, code); 
